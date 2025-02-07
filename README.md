@@ -1,27 +1,49 @@
-# Todo
+# TODO Web App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
+## Description
+A simple and efficient web-based TODO application that helps users manage their tasks effectively. Users can add, edit, delete, and mark tasks as completed, providing an organized way to track daily activities.
 
-## Development server
+## Features
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed
+- Responsive UI for seamless experience across devices
+- Data persistence using local storage or backend integration
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Technologies Used
+- HTML
+- CSS (Bootstrap, SASS for styling)
+- JavaScript (jQuery for interactivity)
+- Angular (if applicable)
 
-## Code scaffolding
+## Installation & Setup
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/shiva2704/TODO-Web-App.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd TODO-Web-App
+   ```
+3. Open `index.html` in a web browser or deploy the app using a web server.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Usage
+1. Open the application in a browser.
+2. Add tasks using the input field and submit button.
+3. Click on a task to mark it as completed.
+4. Edit or delete tasks using the respective buttons.
 
-## Build
+## Future Enhancements
+- User authentication and task synchronization
+- Dark mode for better accessibility
+- Integration with databases (Firebase, MongoDB, etc.)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Contributing
+Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request.
 
-## Running unit tests
+## Author
+**Shiva Kumar Kalpaguri**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## License
+This project is licensed under the MIT License.
